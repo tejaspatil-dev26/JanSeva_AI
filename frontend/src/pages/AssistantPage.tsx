@@ -257,7 +257,8 @@ export const AssistantPage: React.FC<AssistantPageProps> = ({
         follow_up_questions: [
           language === 'mr' ? 'पतींचा मृत्यू दाखला उपलब्ध आहे का?' : language === 'hi' ? 'क्या पति का मृत्यु प्रमाण पत्र उपलब्ध है?' : 'Do you hold your husband\'s Death Certificate?',
           language === 'mr' ? 'शेतीचा ७/१२ उतारा आहे का?' : language === 'hi' ? 'क्या कृषि भूमि (7/12) का रिकॉर्ड है?' : 'Do you have agricultural land records?'
-        ]
+        ],
+        created_at: new Date().toISOString()
       }
     ]);
   };

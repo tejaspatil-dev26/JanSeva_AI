@@ -271,7 +271,7 @@ export const SchemesPage: React.FC<SchemesPageProps> = ({
         </div>
       ) : schemes.length === 0 ? (
         <div className="bg-white border border-stone-200 rounded-2xl p-12 text-center text-stone-500 text-xs">
-          {t.noAppsTitle}
+          {t.noSchemesFound}
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

@@ -128,6 +128,7 @@ export interface TranslationDictionary {
   possiblyEligible: string;
   moreInfo: string;
   notEligible: string;
+  noSchemesFound: string;
 
   // Categories
   catAll: string;
@@ -487,6 +488,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "Possibly Eligible",
     moreInfo: "More Info Required",
     notEligible: "Not Eligible",
+    noSchemesFound: "No schemes found matching your search or filters.",
     catAll: "All",
     catPension: "Pension & Social Security",
     catAgri: "Agriculture",
@@ -906,6 +908,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "कदाचित पात्र",
     moreInfo: "अधिक माहिती आवश्यक",
     notEligible: "पात्र नाही",
+    noSchemesFound: "शोध निकषांशी जुळणारी कोणतीही शासकीय योजना आढळली नाही.",
     catAll: "सर्व",
     catPension: "निवृत्तीवेतन व सामाजिक सुरक्षा",
     catAgri: "कृषी व शेतकरी कल्याण",
@@ -1235,6 +1238,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "संभावित पात्र",
     moreInfo: "अधिक जानकारी आवश्यक",
     notEligible: "पात्र नहीं",
+    noSchemesFound: "खोज मापदंड से मेल खाने वाली कोई सरकारी योजना नहीं मिली।",
     catAll: "सभी",
     catPension: "पेंशन और सामाजिक सुरक्षा",
     catAgri: "कृषि और किसान कल्याण",
@@ -1564,6 +1568,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "સંભવિત પાત્ર",
     moreInfo: "વધુ માહિતી જરૂરી",
     notEligible: "પાત્ર નથી",
+    noSchemesFound: "તમારી શોધ સાથે મેળ ખાતી કોઈ યોજના મળી નથી.",
     catAll: "બધા",
     catPension: "પેન્શન અને સામાજિક સુરક્ષા",
     catAgri: "ખેતીવાડી",
@@ -1893,6 +1898,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "சாத்தியமான தகுதி",
     moreInfo: "கூடுதல் தகவல் தேவை",
     notEligible: "தகுதியற்றது",
+    noSchemesFound: "உங்கள் தேடலுடன் பொருந்தும் திட்டங்கள் எதுவும் இல்லை.",
     catAll: "அனைத்தும்",
     catPension: "ஓய்வூதியம் & பாதுகாப்பு",
     catAgri: "விவசாயம்",
@@ -2222,6 +2228,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "అర్హత ఉండే అవకాశం ఉంది",
     moreInfo: "మరింత సమాచారం అవసరం",
     notEligible: "అర్హత లేదు",
+    noSchemesFound: "మీ శోధనకు సరిపోలే పథకాలు ఏవీ లేవు.",
     catAll: "అన్నీ",
     catPension: "పెన్షన్ & భద్రత",
     catAgri: "వ్యవసాయం",
@@ -2551,6 +2558,7 @@ export const translations: Record<LanguageCode, TranslationDictionary> = {
     possiblyEligible: "সম্ভাব্য যোগ্য",
     moreInfo: "আরও তথ্য প্রয়োজন",
     notEligible: "যোগ্য নয়",
+    noSchemesFound: "আপনার অনুসন্ধানের সাথে মেলে এমন কোনো প্রকল্প পাওয়া যায়নি।",
     catAll: "সব",
     catPension: "পেনশন ও সামাজিক নিরাপত্তা",
     catAgri: "কৃষি ও কৃষক কল্যাণ",
